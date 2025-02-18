@@ -1,3 +1,5 @@
+Checks if Python libraries like PyTorch and JAX are able to leverage an Nvidia GPU by running a minimal benchmark.
+
 ## Installation
 
 1. Clone this repository. For example, using
