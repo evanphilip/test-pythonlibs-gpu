@@ -11,12 +11,12 @@ Checks if Python libraries like PyTorch and JAX are able to leverage an Nvidia G
     
     1. run it using [uv](https://docs.astral.sh/uv/)
         ```bash
-        uv run gpu_torch.py
+        uv run test_torch.py
         ```
 
     2. run it using [hatch](https://hatch.pypa.io/latest/)
         ```bash
-        hatch run python gpu_torch.py
+        hatch run test_torch.py
         ```
         
     > _Note_: `pyproject.toml` does not use any `uv` or `hatch` specific configuration, so you may also use other tools. For example, you could use a combination of `pyenv`, `venv`  and `pip`.
