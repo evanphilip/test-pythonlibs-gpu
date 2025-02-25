@@ -7,6 +7,7 @@
 """
 Checks if PyTorch is able to leverage the GPU by running a minimal benchmark.
 """
+
 import torch
 import torch.utils.benchmark as benchmark
 
