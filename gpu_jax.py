@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "jax[cuda]>=0.5.0",
+# ]
+# ///
 """
 Checks if JAX is able to leverage the GPU by running a minimal benchmark.
 """

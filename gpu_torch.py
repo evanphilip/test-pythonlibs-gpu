@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "torch>=2.6.0",
+# ]
+# ///
 """
 Checks if PyTorch is able to leverage the GPU by running a minimal benchmark.
 """
