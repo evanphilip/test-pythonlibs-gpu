@@ -18,5 +18,3 @@ Checks if Python libraries like PyTorch and JAX are able to leverage an Nvidia G
         ```bash
         hatch run test_torch.py
         ```
-        
-    > _Note_: `pyproject.toml` does not use any `uv` or `hatch` specific configuration, so you may also use other tools. For example, you could use a combination of `pyenv`, `venv`  and `pip`.
